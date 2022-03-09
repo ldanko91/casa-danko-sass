@@ -1,0 +1,21 @@
+{
+  "name": "casa-danko-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilos.scss css/estilos.css",
+"watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://https://github.com/ldanko91/casa-danko-sass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}

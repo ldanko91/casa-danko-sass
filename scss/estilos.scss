@@ -1,0 +1,38 @@
+@import "tipografias";
+@import "colores";
+
+ul {
+    list-style: none;
+    li {
+        color: chocolate;
+        font-size: 2rem;
+        a{
+            color: rgb(236, 108, 133);
+            text-decoration: none;
+            &:hover {
+                color: darkred;
+            }
+        }
+    }
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight:bolder;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1rem;
+}
+
+header {
+    * {
+    font-size: xx-large;
+}
+}
+
