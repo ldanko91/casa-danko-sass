@@ -33,3 +33,23 @@ p {
 
 header * {
   font-size: xx-large; }
+
+.estilo-map, .estilo-map--extend {
+  color: crimson;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold; }
+
+.estilo-map--extend {
+  font-size: 2.5rem;
+  color: darkred; }
+
+.mixin1 {
+  height: 3rem;
+  background-color: #dfbfbf;
+  padding: 5px; }
+
+.mixin2 {
+  height: 5rem;
+  background-color: #9c9c9c;
+  padding: 10px; }
